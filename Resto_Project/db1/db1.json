@@ -1,0 +1,80 @@
+{
+  "user": [
+    {
+      "name": "Rawat",
+      "email": "Rawat@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Bhaskar",
+      "email": "Bhaskar@gmail.com",
+      "password": "4321",
+      "id": 2
+    },
+    {
+      "name": "Vaibhav",
+      "email": "Vaibhav@gmail.com",
+      "password": "4004",
+      "id": 3
+    },
+    {
+      "name": "Shrikant",
+      "email": "Shri@gmail.com",
+      "password": "7075",
+      "id": 4
+    },
+    {
+      "name": "Jabeer",
+      "email": "Jabeer@gmail.com",
+      "password": "6789",
+      "id": 5
+    },
+    {
+      "name": "Nitesh",
+      "email": "Nitesh@gmail.com",
+      "password": "8844",
+      "id": 6
+    },
+    {
+      "name": "Shreya",
+      "email": "s@gmail.com",
+      "password": "3388",
+      "id": 7
+    }
+  ],
+  "booking": [
+    {
+      "name": "Single Bed Room",
+      "price": 200,
+      "quant": 1,
+      "total_price": 200,
+      "booking_date": "2022-08-17T13:26:11.381Z",
+      "id": 1
+    },
+    {
+      "name": "Double Bed Room",
+      "price": 300,
+      "quant": 3,
+      "total_price": 900,
+      "booking_date": "2022-08-17T13:27:03.189Z",
+      "id": 2
+    },
+    {
+      "name": "Single Bed Room",
+      "price": 200,
+      "quant": 3,
+      "total_price": 600,
+      "booking_date": "2022-08-19T11:17:38.388Z",
+      "id": 3
+    },
+    {
+      "name": "Single Bed Room",
+      "price": 200,
+      "quant": 2,
+      "total_price": 400,
+      "booking_date": "2022-08-19T12:18:06.447Z",
+      "id": 4
+    }
+  ]
+}

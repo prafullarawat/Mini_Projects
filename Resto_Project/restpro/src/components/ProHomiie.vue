@@ -1,6 +1,6 @@
 <template>
   <HeaderResto />
-  <h3>Welcome {{ name }}, To Home Page</h3>
+  <h4>Welcome {{ name }}, To Home Page</h4>
   <div class="left">
     <h3>{{ single.name }}</h3>
     <img class="lefti" src="../assets/cars1.jpeg" alt="" />
@@ -102,7 +102,7 @@ export default {
 
 <style>
 td {
-  width: 160px;
-  height: 50px;
+  width: 165px;
+  height: 55px;
 }
 </style>

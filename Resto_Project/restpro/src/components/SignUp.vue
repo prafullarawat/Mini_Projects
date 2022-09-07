@@ -7,7 +7,7 @@
     <input type="password" v-model="password" placeholder="Enter Password" />
     <button v-on:click="signUp">SignUp</button>
     <p>
-      <router-link to="/Login">LoginHere</router-link>
+      <router-link to="/Login">Login Here</router-link>
     </p>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     async signUp() {
-      console.log("SignUp....!!!", this.name, this.email, this.password);
+      console.log("SignUp...!!", this.name, this.email, this.password);
       let result = await axios.post("http://localhost:3000/user", {
         name: this.name,
         email: this.email,

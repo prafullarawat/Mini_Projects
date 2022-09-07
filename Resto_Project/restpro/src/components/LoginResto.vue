@@ -2,10 +2,10 @@
   <h4>Welcome To Resto Login</h4>
 
   <div class="login">
-    <input type="text" v-model="email" placeholder="Enter Email" />
-    <input type="password" v-model="password" placeholder="Enter Password" />
+    <input type="text" v-model="email" placeholder="Enter_Email" />
+    <input type="password" v-model="password" placeholder="Enter_Password" />
 
-    <button v-on:click="login">Login Here</button>
+    <button v-on:click="login">Login_Here</button>
     <p>
       <router-link to="/SignUp">SignUp</router-link>
     </p>

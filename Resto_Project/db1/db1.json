@@ -31,12 +31,6 @@
       "id": 5
     },
     {
-      "name": "Nitesh",
-      "email": "Nitesh@gmail.com",
-      "password": "8844",
-      "id": 6
-    },
-    {
       "name": "Shreya",
       "email": "s@gmail.com",
       "password": "3388",
@@ -51,14 +45,6 @@
       "total_price": 200,
       "booking_date": "2022-08-17T13:26:11.381Z",
       "id": 1
-    },
-    {
-      "name": "Double Bed Room",
-      "price": 300,
-      "quant": 3,
-      "total_price": 900,
-      "booking_date": "2022-08-17T13:27:03.189Z",
-      "id": 2
     },
     {
       "name": "Single Bed Room",

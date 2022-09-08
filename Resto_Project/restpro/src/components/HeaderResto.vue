@@ -1,8 +1,8 @@
 <template>
   <div class="nav">
     <router-link to="/">Home</router-link>
-    <router-link to="/AllBook">All Bookings</router-link>
-    <router-link to="/CancelBook">Cancel Bookings</router-link>
+    <router-link to="/AllBook">All_Bookings</router-link>
+    <router-link to="/CancelBook">Cancel_Bookings</router-link>
     <a v-on:click="logout" href="">Logout</a>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <h4>Welcome To Login</h4>
+  <h4>Welcome...!!</h4>
 
   <div class="login">
     <input type="text" v-model="email" placeholder="Enter_Email" />
@@ -36,7 +36,7 @@ export default {
       }
       //console.log(result);
       else {
-        alert("Please Enter Right Credintials");
+        alert("Plz Enter Right Credintials");
       }
     },
   },

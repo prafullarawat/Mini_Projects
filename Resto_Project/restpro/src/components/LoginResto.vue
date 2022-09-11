@@ -1,9 +1,9 @@
 <template>
-  <h4>Welcome...!!</h4>
+  <h4>Welcome To Login...!!</h4>
 
   <div class="login">
-    <input type="text" v-model="email" placeholder="Enter_Email" />
-    <input type="password" v-model="password" placeholder="Enter_Password" />
+    <input type="text" v-model="email" placeholder="Enter Email" />
+    <input type="password" v-model="password" placeholder="Enter Password" />
 
     <button v-on:click="login">Login_Here</button>
     <p>

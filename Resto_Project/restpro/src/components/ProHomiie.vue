@@ -1,6 +1,6 @@
 <template>
   <HeaderResto />
-  <h4>Welcome {{ name }}, To Home Page</h4>
+  <h4>Welcome {{ name }}</h4>
   <div class="left">
     <h3>{{ single.name }}</h3>
     <img class="lefti" src="../assets/cars1.jpeg" alt="" />

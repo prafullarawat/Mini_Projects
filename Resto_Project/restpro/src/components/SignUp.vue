@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     async signUp() {
-      console.log("SignUp...!!", this.name, this.email, this.password);
+      console.log("SignUp...!", this.name, this.email, this.password);
       let result = await axios.post("http://localhost:3000/user", {
         name: this.name,
         email: this.email,
@@ -68,8 +68,8 @@ export default {
 }
 
 .register button {
-  width: 150px;
-  height: 40px;
+  width: 155px;
+  height: 45px;
   color: blue;
   background: pink;
 }

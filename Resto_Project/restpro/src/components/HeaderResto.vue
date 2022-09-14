@@ -35,10 +35,10 @@ export default {
 
 .nav a {
   float: left;
-  padding: 10px 18px;
+  padding: 11px 19px;
   text-decoration: none;
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 22px;
+  margin-right: 12px;
 }
 
 .nav a:hover {

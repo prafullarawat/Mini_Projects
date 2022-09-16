@@ -1,8 +1,8 @@
 <template>
   <div class="nav">
     <router-link to="/">Home</router-link>
-    <router-link to="/AllBook">All Bookings</router-link>
-    <router-link to="/CancelBook">Cancel Bookings</router-link>
+    <router-link to="/AllBook">All_Bookings</router-link>
+    <router-link to="/CancelBook">Cancel_Bookings</router-link>
     <a v-on:click="logout" href="">Logout</a>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 
   methods: {
     logout() {
-      alert("Succesfully Logout From Page");
+      alert("Succesfully_Logout_From_Page");
       localStorage.clear();
       this.$router.push({ name: "LoginResto" });
     },

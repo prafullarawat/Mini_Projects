@@ -48,12 +48,12 @@ export default {
       name: "",
       single: {
         name: "Single Bed Room",
-        price: 200,
+        price: 250,
         quant: 1,
       },
       double: {
         name: "Double Bed Room",
-        price: 300,
+        price: 400,
         quant: 1,
       },
     };

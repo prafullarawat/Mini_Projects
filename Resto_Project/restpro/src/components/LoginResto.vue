@@ -36,7 +36,7 @@ export default {
       }
       //console.log(result);
       else {
-        alert("Plz Enter Right Credintials");
+        alert("Please Enter Right Credintials");
       }
     },
   },
@@ -59,7 +59,7 @@ export default {
   padding-left: 20px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 .login button {
